@@ -10,12 +10,12 @@ Copy & paste callstack text from Visual Studio. Select it. Type "Cascade Callsta
 
 before:
 
-  c()
-  b()
-  a()
+    c()
+    b()
+    a()
 
 after:
 
-  a
-  |- b
-  |- |- c
+    a
+    |- b
+    |- |- c
